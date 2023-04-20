@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #8d3fa4 0%, #4c60a7 100%);
+
+  /* background-image: linear-gradient(to right, #79cbca 0%, #77a1d3 100%); */
+}
+
+.bookCard {
+  width: 200px;
+  height: 350px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(
+    to right,
+    #ffffff 0%,
+
+    #ffffff 100%
+  );
+
+  color: #000000;
+  padding: 1rem 0px 1rem;
+}
+
+.bookCard:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.bookCard img {
+  width: 150px;
+  /* height: 200px; */
+  /* border-radius: 12px; */
+}
+
+.bottom h4 {
+  padding: 0px;
+  margin: 11px 0 0 0;
+}
+
+.bottom p {
+  padding: 0;
+  margin: 0 0 7px 0px;
+}
+
+.bottom {
+  margin-top: 4px;
+  height: 40%;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 1fr;
+}
+
+.bottom button:hover {
+  /* background-color: #325a96;
+  transition: 0.5s; */
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.categories {
+  width: 75%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+}
+
+.top {
+  height: 60%;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  overflow: hidden;
+}
+
+.price {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+}
+
+.absalute {
+  margin: 0 auto;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.absalute h1 {
+  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Noto Serif Telugu", serif; */
+  font-size: 70px;
+  color: aliceblue;
+}
+
+.absalute input {
+  text-decoration: none;
+
+  padding: 10px;
+  width: 300px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: white 3px solid;
+  background-color: inherit;
+  font-size: large;
+  font-family: "Times New Roman", serif;
+  outline: none;
+}
+.absalute input::placeholder {
+  color: rgb(253, 253, 253);
+  opacity: 1;
+}
