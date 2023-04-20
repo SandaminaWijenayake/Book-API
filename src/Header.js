@@ -53,7 +53,7 @@ const Header = () => {
       {error && (
         <ErrorModal
           backDrop={backDrop}
-          title="Error Message"
+          title="Invalid Input"
           message="YOUR BOOK IS NOT FOUND!"
         />
       )}

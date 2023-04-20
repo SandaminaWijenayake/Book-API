@@ -34,7 +34,7 @@
 }
 
 .message {
-  padding: 2rem;
+  padding: 1rem;
   background-image: linear-gradient(to right, #faf9fa 0%, #ccd6fa 100%);
 
   font-size: 20px;
@@ -43,7 +43,7 @@
 .button {
   background-image: linear-gradient(to right, #faf9fa 0%, #ccd6fa 100%);
 
-  padding: 2rem;
+  padding: 1rem;
 }
 .button button {
   width: 30%;
