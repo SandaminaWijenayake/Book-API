@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 
 body {
   margin: 0;
@@ -100,7 +102,8 @@ body {
 }
 
 .absalute h1 {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
   /* font-family: "Noto Serif Telugu", serif; */
   font-size: 70px;
   color: aliceblue;
@@ -123,4 +126,18 @@ body {
 .absalute input::placeholder {
   color: rgb(253, 253, 253);
   opacity: 1;
+}
+
+.navbar {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 5px white solid;
+  padding: 20px 0;
+}
+
+.navbar h1 {
+  font-family: "Neucha", cursive;
+  margin: 0px;
+  font-size: 4rem;
 }

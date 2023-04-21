@@ -58,23 +58,22 @@ const Header = () => {
         />
       )}
 
-      <div className="image">
-        <div className="relative">
-          {/* <img src={image} alt="" /> */}
-          <div className="absalute">
-            <h1>A room without books is like a body with a soul</h1>;
-            <div className="search">
-              <input
-                type="text"
-                placeholder="Enter Your Book Name"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                onKeyDown={searchBook}
-              />
-            </div>
-          </div>
+      <div className="navbar">
+        <h1>BookShelf</h1>
+      </div>
+      <div className="absalute">
+        <h1>A room without books is like a body with a soul</h1>;
+        <div className="search">
+          <input
+            type="text"
+            placeholder="Enter Your Book Name"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={searchBook}
+          />
         </div>
       </div>
+
       <div className="bookData">
         <Categories book={bookData} />
       </div>
